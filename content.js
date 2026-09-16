@@ -2439,3 +2439,16 @@ window.AANMOEDIGING = {
   leveldown: ["Geeft niks — we oefenen dit rustig nog een keer. 💛", "Even een stapje terug, dan zit het straks vast.", "Geen stress, we pakken het samen opnieuw."],
   stapelklaar: ["Stapel gehaald! 🎉 Op naar de volgende.", "Alle begrippen gekend — top!", "Yes, stapeltje af! ⭐"]
 };
+
+/* ============================ PODCASTS ============================
+   NotebookLM-afleveringen (bron + prompts: ../../02-verwerkt/podcast/), hier mono 56 kbps AAC.
+   De 🎧-tegel verschijnt automatisch zolang deze lijst niet leeg is.
+   Aflevering 7 (de instinkers-check) volgt zodra het compute-quotum weer ruimte geeft. */
+window.PODCASTS = [
+  { id:"ep1", emoji:"👑", titel:"1 · Een nieuwe koning botst",        sub:"Filips II, centralisatie en de vervolging die averechts werkt · 10 min", file:"podcast-1-een-nieuwe-koning-botst.m4a", tegelSub:"het hele hoofdstuk in afleveringen van ~8 minuten" },
+  { id:"ep2", emoji:"🔥", titel:"2 · 1566: Smeekschrift en Beeldenstorm", sub:"Het jaar dat het knapte, in de goede volgorde · 7 min",            file:"podcast-2-1566-smeekschrift-en-beeldenstorm.m4a" },
+  { id:"ep3", emoji:"⚔️", titel:"3 · Alva's harde hand",              sub:"Drie opdrachten, de bloedraad en de Tiende Penning · 7 min",        file:"podcast-3-alvas-harde-hand.m4a" },
+  { id:"ep4", emoji:"🛡️", titel:"4 · De Opstand begint",              sub:"Geuzen, Heiligerlee en het kantelpunt Den Briel · 10 min",         file:"podcast-4-de-opstand-begint.m4a" },
+  { id:"ep5", emoji:"🇳🇱", titel:"5 · Naar een eigen staat",           sub:"1576, 1579, 1581, 1588 — en het Wilhelmus · 13 min",               file:"podcast-5-naar-een-eigen-staat.m4a" },
+  { id:"ep6", emoji:"🧭", titel:"6 · Oorzaken en gevolgen",           sub:"De vier vragen waar de SO-punten zitten · 7 min",                   file:"podcast-6-oorzaken-en-gevolgen.m4a" }
+];
